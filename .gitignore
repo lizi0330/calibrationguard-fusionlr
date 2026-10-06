@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.jsonl
+*.csv
+*.parquet
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.pdf
+*.docx
