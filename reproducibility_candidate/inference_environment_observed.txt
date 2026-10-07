@@ -1,0 +1,10 @@
+Historical model inference environment (captured in confirmation manifest; not a lock for the public calibration-only package)
+accelerate==1.13.0
+numpy==1.26.4
+protobuf==4.25.3
+scikit-learn==1.5.1
+scipy==1.15.3
+sentencepiece==0.2.0
+tokenizers==0.19.1
+torch==2.2.2+cu121
+transformers==4.44.2

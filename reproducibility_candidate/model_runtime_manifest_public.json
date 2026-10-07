@@ -1,0 +1,341 @@
+{
+  "auxiliary_prompt_sha256": {
+    "auxiliary_generation": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "auxiliary_guard_pred_used": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "auxiliary_round_decimals": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+    "auxiliary_suffix": "8e199de22330e36804188b9d7938b309400e8f158b2319d406de9f033c8f2ddb",
+    "auxiliary_system": "476b402569debe66a2ca030b3290628c1fb0f83facb7992798a2630de95bf8fb",
+    "auxiliary_template": "35afbcced7d607cd1fbd095795ee2a47801964b6ca3c50b490ceae7dbd44d3d2"
+  },
+  "dependency_versions": {
+    "accelerate": "1.13.0",
+    "numpy": "1.26.4",
+    "protobuf": "4.25.3",
+    "scikit-learn": "1.5.1",
+    "scipy": "1.15.3",
+    "sentencepiece": "0.2.0",
+    "tokenizers": "0.19.1",
+    "torch": "2.2.2+cu121",
+    "transformers": "4.44.2"
+  },
+  "device_policy": "single_cuda_gpu",
+  "generation_sampling": false,
+  "inference_dtype": "float16",
+  "models": {
+    "lg2": {
+      "chat_template_sha256": "19121486b4909ef54df0b8e7088db446708085b0634cd1597a523eb3b025c6c5",
+      "checkpoint_directory_basename": "7d257f3c1a0ec6ed99b2cb715027149dfb9784ef",
+      "files": {
+        "config.json": {
+          "sha256": "2430cee764b6530ff8673cf9ba8561e1d5a33152d503cd0de909ff5718261441",
+          "size_bytes": 654
+        },
+        "generation_config.json": {
+          "sha256": "55550e95c40c53fb0ee3f960d6d2b25a46405c8f790e5c4bb02caf3e98f2b5d0",
+          "size_bytes": 126
+        },
+        "model-00001-of-00004.safetensors": {
+          "sha256": "21c0ffad4dcca9ada5ca96e770590f62e8b78843401358eaf60c7a9e0692daa0",
+          "size_bytes": 4976698672
+        },
+        "model-00002-of-00004.safetensors": {
+          "sha256": "bcd4c49e95db2e9725169063bba9e52b9f88ba3c3928255f79705423511c5481",
+          "size_bytes": 4999802720
+        },
+        "model-00003-of-00004.safetensors": {
+          "sha256": "72b3d279ffc5d8610f39bca1fc6845aec2775b79e5f4397bf8ef5fd946889cc4",
+          "size_bytes": 4915916176
+        },
+        "model-00004-of-00004.safetensors": {
+          "sha256": "938be8220d3f8047f60132effe3ede17f35db1a4f75e22ae90c1c2bfc9025093",
+          "size_bytes": 1168138808
+        },
+        "model.safetensors.index.json": {
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "size_bytes": 23950
+        },
+        "special_tokens_map.json": {
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "size_bytes": 73
+        },
+        "tokenizer.json": {
+          "sha256": "c05a3c2174e9edd5be19dc5a0748c42a9037bec2811ce062728bfd71f8702d78",
+          "size_bytes": 9084490
+        },
+        "tokenizer_config.json": {
+          "sha256": "cbbb37d3eb75893e79589881e844bdf4c012ed475428393ba49c6330e124c3b2",
+          "size_bytes": 51882
+        }
+      },
+      "no_token_ids": [
+        2201
+      ],
+      "revision": "7d257f3c1a0ec6ed99b2cb715027149dfb9784ef",
+      "revision_status": "upstream_commit_hash",
+      "safe_token_ids": [
+        19193
+      ],
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "unsafe_token_ids": [
+        39257
+      ],
+      "yes_token_ids": [
+        9891
+      ]
+    },
+    "lg3": {
+      "chat_template_sha256": "5a5561f4ea9576d49d8b81328d0c7c42353549a9d610e0855ff107bf9a04c1f8",
+      "checkpoint_directory_basename": "Llama-Guard-3-8B",
+      "files": {
+        "config.json": {
+          "sha256": "2fc8239c581986bc8aceffab5e9bbec2c9e1e383fe39409d86e5ca97b6368901",
+          "size_bytes": 860
+        },
+        "configuration.json": {
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "size_bytes": 73
+        },
+        "generation_config.json": {
+          "sha256": "d14c15edb3055a52ceb81fd7c94a50c01e925fcd8c950e755b7564077677a9a8",
+          "size_bytes": 160
+        },
+        "model-00001-of-00004.safetensors": {
+          "sha256": "37aa666e38f27d6364c510bf68644cf146009f90ddfdd0e46264fd833fc735da",
+          "size_bytes": 4976698672
+        },
+        "model-00002-of-00004.safetensors": {
+          "sha256": "4b169a796073335f6059927b2070edfcb506876b1afa862fcde0c8b538bf903f",
+          "size_bytes": 4999802720
+        },
+        "model-00003-of-00004.safetensors": {
+          "sha256": "ac817adae76270f1a466cda70e1c360a780668534f7a22bce00ac4fe03135f4a",
+          "size_bytes": 4915916176
+        },
+        "model-00004-of-00004.safetensors": {
+          "sha256": "ec748c5f2821d7eecb446922b7e75431108e43081c21fc0773212de09c19eaaa",
+          "size_bytes": 1168138808
+        },
+        "model.safetensors.index.json": {
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "size_bytes": 23950
+        },
+        "special_tokens_map.json": {
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "size_bytes": 73
+        },
+        "tokenizer.json": {
+          "sha256": "bbc1904d35169c542dffbe1f7589a5994ec7426d9e5b609d07bab876f32e97ab",
+          "size_bytes": 9084449
+        },
+        "tokenizer_config.json": {
+          "sha256": "5f29808854afad7b83b11a668a5231377c8527454d56ec0c10ae851d0f17281a",
+          "size_bytes": 51967
+        }
+      },
+      "no_token_ids": [
+        2201
+      ],
+      "revision": "local_content_hashes_no_verified_upstream_revision",
+      "revision_status": "local_content_hash_only; upstream_revision_unverified",
+      "safe_token_ids": [
+        19193
+      ],
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "unsafe_token_ids": [
+        39257
+      ],
+      "yes_token_ids": [
+        9891
+      ]
+    },
+    "lg7b": {
+      "chat_template_sha256": "9abeb9ecdef24104c06605b951cbf6dd739375ce802e6c5e1ce416107df93897",
+      "checkpoint_directory_basename": "LlamaGuard-7b",
+      "files": {
+        "config.json": {
+          "sha256": "572b7e51492c140fcddfe4bae9626eba28e1640ddb943cd4985396582137876f",
+          "size_bytes": 610
+        },
+        "consolidate_params.json": {
+          "sha256": "95a4b6af7bfb25ff358f48ae1edcb1aa633da8ea953502b33d922c1e0a64e8af",
+          "size_bytes": 429
+        },
+        "generation_config.json": {
+          "sha256": "14ac5e45a47a9c4e1c5a28a0d41d9cc7a8d9f3e25caf709f8936549dafa6586a",
+          "size_bytes": 154
+        },
+        "model-00001-of-00003.safetensors": {
+          "sha256": "f9e6f2ab03a3b92bf4bc6cfd6d6dcdaa8b36ab5ecf73dcfd1e8da3b5a95261a8",
+          "size_bytes": 4938985352
+        },
+        "model-00002-of-00003.safetensors": {
+          "sha256": "4d92c8b74f78b0e0f4b32921d13a007efcd0e0447290da6d92f787c3295b0ad8",
+          "size_bytes": 4947390880
+        },
+        "model-00003-of-00003.safetensors": {
+          "sha256": "a19b92a679870c311122d67ae980737cf3e51424b396b3809463c4d9b06c7fcf",
+          "size_bytes": 3590488816
+        },
+        "model.safetensors.index.json": {
+          "sha256": "0e3aa3ec6e7d38edaacc0d9c5fe74d33b16699a6a14f6f0711365b64388ff7ab",
+          "size_bytes": 23949
+        },
+        "params.json": {
+          "sha256": "24a5e1336312e1466c5a16fb15a6690dd9d726cfaa9b290402957927932bc0f9",
+          "size_bytes": 104
+        },
+        "special_tokens_map.json": {
+          "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+          "size_bytes": 414
+        },
+        "tokenizer.json": {
+          "sha256": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+          "size_bytes": 1842767
+        },
+        "tokenizer.model": {
+          "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+          "size_bytes": 499723
+        },
+        "tokenizer_config.json": {
+          "sha256": "adf699562612cb05c618056c29641916f808c70755e2ad4a37080a479b44ede2",
+          "size_bytes": 5327
+        }
+      },
+      "no_token_ids": [
+        694
+      ],
+      "revision": "local_content_hashes_no_verified_upstream_revision",
+      "revision_status": "local_content_hash_only; upstream_revision_unverified",
+      "safe_token_ids": [
+        9109
+      ],
+      "tokenizer_class": "LlamaTokenizerFast",
+      "unsafe_token_ids": [
+        25110
+      ],
+      "yes_token_ids": [
+        4874
+      ]
+    },
+    "mistral": {
+      "chat_template_sha256": "e16746b40344d6c5b5265988e0328a0bf7277be86f1c335156eae07e29c82826",
+      "checkpoint_directory_basename": "0d4b76e1efeb5eb6f6b5e757c79870472e04bd3a",
+      "files": {
+        "config.json": {
+          "sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+          "size_bytes": 601
+        },
+        "generation_config.json": {
+          "sha256": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+          "size_bytes": 116
+        },
+        "model-00001-of-00003.safetensors": {
+          "sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+          "size_bytes": 4949453792
+        },
+        "model-00002-of-00003.safetensors": {
+          "sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+          "size_bytes": 4999819336
+        },
+        "model-00003-of-00003.safetensors": {
+          "sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+          "size_bytes": 4546807800
+        },
+        "model.safetensors.index.json": {
+          "sha256": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016",
+          "size_bytes": 23950
+        },
+        "special_tokens_map.json": {
+          "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+          "size_bytes": 414
+        },
+        "tokenizer.json": {
+          "sha256": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+          "size_bytes": 1961548
+        },
+        "tokenizer.model": {
+          "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+          "size_bytes": 587404
+        },
+        "tokenizer_config.json": {
+          "sha256": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+          "size_bytes": 140874
+        }
+      },
+      "no_token_ids": [
+        1476
+      ],
+      "revision": "0d4b76e1efeb5eb6f6b5e757c79870472e04bd3a",
+      "revision_status": "upstream_commit_hash",
+      "safe_token_ids": [
+        5791
+      ],
+      "tokenizer_class": "LlamaTokenizerFast",
+      "unsafe_token_ids": [
+        16194
+      ],
+      "yes_token_ids": [
+        5849
+      ]
+    },
+    "wildguard": {
+      "chat_template_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkpoint_directory_basename": "WildGuard",
+      "files": {
+        "added_tokens.json": {
+          "sha256": "b08fce55158c8613b7cf76607aabea21c7fa6eef446df82ed8fe492e655e532a",
+          "size_bytes": 18292
+        },
+        "config.json": {
+          "sha256": "435bfa5311de2d3e228250ba40e772d522c6626fb4198b1277c11d7831bf9c61",
+          "size_bytes": 649
+        },
+        "generation_config.json": {
+          "sha256": "4127781befe845491ad87abfe0b3325a20247bccebe1414f187fba838d64190c",
+          "size_bytes": 116
+        },
+        "pytorch_model-00001-of-00002.bin": {
+          "sha256": "5b5c075fd817f347f5fc9c40d634ff3f5af6612c7660303bf336162514c31fde",
+          "size_bytes": 9949327692
+        },
+        "pytorch_model-00002-of-00002.bin": {
+          "sha256": "5a55125da63cdccbed2c1ee26f4f81ea1fdeeacc472992fe5c2231bb46775ba7",
+          "size_bytes": 4546835295
+        },
+        "pytorch_model.bin.index.json": {
+          "sha256": "ba4f68101f685630d18acd8c420a15207366b79c1933b14e709b87764d489461",
+          "size_bytes": 23950
+        },
+        "special_tokens_map.json": {
+          "sha256": "51779d91c18d1c6a732af2892daf4914c55706d9f935781a5994f82a060b6054",
+          "size_bytes": 16201
+        },
+        "tokenizer.model": {
+          "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+          "size_bytes": 587404
+        },
+        "tokenizer_config.json": {
+          "sha256": "3b3b775aa8a0399c3df3c8f447aa98ac17eadc9a7deb04eed755e5a29af67bc1",
+          "size_bytes": 152968
+        }
+      },
+      "no_token_ids": [
+        1476
+      ],
+      "revision": "local_content_hashes_no_verified_upstream_revision",
+      "revision_status": "local_content_hash_only; upstream_revision_unverified",
+      "safe_token_ids": [
+        5791
+      ],
+      "tokenizer_class": "LlamaTokenizerFast",
+      "unsafe_token_ids": [
+        16194
+      ],
+      "yes_token_ids": [
+        5849
+      ]
+    }
+  },
+  "source_manifest_file": "results/repro/confirmation_model_manifest_20260930_v2.json",
+  "source_manifest_sha256": "b2ab7ca72478b7ab8bf410d00c531ef34ae3006d8391666c99a078186cb356b7"
+}
