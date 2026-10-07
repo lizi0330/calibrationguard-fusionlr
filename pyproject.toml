@@ -9,5 +9,8 @@ description = "Source-specific FusionLR calibration for LLM safety guard scores"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3"]
 
+[project.scripts]
+calibrationguard = "calibrationguard.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
